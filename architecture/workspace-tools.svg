@@ -1,12 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="title">
-<title id="title">Muv Code 工作区工具与计划落盘</title>
-<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#527565"/></marker></defs>
-<rect width="960" height="420" fill="#f6f7f3"/>
-<g font-family="Segoe UI, Microsoft YaHei, sans-serif" fill="#20342a" text-anchor="middle">
-<text x="480" y="46" font-size="24" font-weight="600">工作区工具与计划落盘</text>
-<g fill="#fff" stroke="#bacbc1"><rect x="32" y="92" width="196" height="72" rx="8"/><rect x="284" y="92" width="196" height="72" rx="8"/><rect x="536" y="92" width="196" height="72" rx="8"/><rect x="788" y="92" width="140" height="72" rx="8"/><rect x="284" y="235" width="196" height="72" rx="8"/><rect x="536" y="235" width="392" height="72" rx="8"/></g>
-<g font-size="16" font-weight="600"><text x="130" y="121">Agent · 根目录索引</text><text x="382" y="121">模型调用工具</text><text x="634" y="121">路径与版本校验</text><text x="858" y="121">工作区</text><text x="382" y="264">Plan · 生成计划正文</text><text x="732" y="264">事务写入时间戳 Markdown</text></g>
-<g font-size="13" fill="#425c50"><text x="130" y="145">只发送文件名，不预读全文</text><text x="382" y="145">读取、创建、局部编辑、诊断</text><text x="634" y="145">首次读全文，编辑只传差量</text><text x="858" y="145">实际读写</text><text x="382" y="288">范围、步骤、验收、回退</text><text x="732" y="288">muv-code/.plan/时间戳-后缀.md</text><text x="605" y="211">返回版本与执行结果；继续工具循环</text><text x="480" y="372">重复读取不再产生全文结果；无状态 API 仍会发送已有消息历史。</text></g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 960" role="img" aria-labelledby="title desc">
+<title id="title">Muv Code 神经网络式架构</title><desc id="desc">输入经上下文汇聚进入四种模式。Agent 直接执行；Super LLM 理解、规格、计划、两轮自审后等待用户构建。工具结果反馈模型，子代理只读调查。</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#52816a"/></marker></defs>
+<rect width="1440" height="960" rx="24" fill="#f7f7f2"/>
+<g font-family="Segoe UI, Microsoft YaHei, sans-serif" text-anchor="middle" fill="#263c30">
+<text x="720" y="57" font-size="30" font-weight="700">Muv Code · 从输入到行动</text><text x="720" y="89" font-size="15" fill="#62766a">神经网络式节点图：展示应用编排，不代表模型内部结构</text>
+<g font-size="16" font-weight="600"><text x="130" y="143">输入层</text><text x="375" y="143">上下文汇聚</text><text x="630" y="143">模式路由</text><text x="965" y="143">执行与审查</text><text x="1295" y="143">结果层</text></g>
 </g>
-<g fill="none" stroke="#527565" stroke-width="2" marker-end="url(#arrow)"><path d="M228 128H278"/><path d="M480 128H530"/><path d="M732 128H782"/><path d="M858 164V184H382V170"/><path d="M480 271H530"/></g>
-</svg>
+<g stroke="#b3cabb" stroke-width="1.5" fill="none" opacity=".8">
+<path d="M154 228L351 398M154 338L351 398M154 448L351 398M154 558L351 398"/>
+<path d="M399 398L606 218M399 398L606 328M399 398L606 438M399 398L606 548"/>
+<path d="M654 218L1271 218M654 328L1271 328" marker-end="url(#arrow)"/>
+<path d="M654 438H901M989 438H1271" marker-end="url(#arrow)"/>
+<path d="M654 548L750 650M750 650H870M870 650H990M990 650H1110M1110 650V755H990M990 755L965 482" marker-end="url(#arrow)"/>
+<path d="M965 482L1271 458M965 482L1271 568" marker-end="url(#arrow)"/>
+<path d="M945 482V548H1015M1060 548H1150V482H989" stroke-dasharray="5 5" marker-end="url(#arrow)"/>
+<path d="M945 394V374H690V403" stroke="#52816a" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+</g>
+<g fill="#fff" stroke="#91b39e" stroke-width="2">
+<circle cx="130" cy="228" r="24"/><circle cx="130" cy="338" r="24"/><circle cx="130" cy="448" r="24"/><circle cx="130" cy="558" r="24"/>
+<circle cx="375" cy="398" r="24"/><circle cx="630" cy="218" r="24"/><circle cx="630" cy="328" r="24"/><circle cx="630" cy="438" r="24"/><circle cx="630" cy="548" r="24"/>
+<circle cx="1295" cy="218" r="24"/><circle cx="1295" cy="328" r="24"/><circle cx="1295" cy="458" r="24"/><circle cx="1295" cy="568" r="24"/>
+<circle cx="750" cy="650" r="15"/><circle cx="870" cy="650" r="15"/><circle cx="990" cy="650" r="15"/><circle cx="1110" cy="650" r="15"/>
+<rect x="901" y="394" width="88" height="88" rx="22" fill="#e5f0e8"/><rect x="905" y="728" width="170" height="54" rx="12"/>
+<circle cx="1040" cy="548" r="23"/>
+</g>
+<g font-family="Segoe UI, Microsoft YaHei, sans-serif" text-anchor="middle" fill="#263c30" font-size="16">
+<text x="130" y="274">用户目标</text><text x="130" y="384">@ 文件 / 目录</text><text x="130" y="494">终端输出</text><text x="130" y="604">历史与记忆</text>
+<text x="375" y="448">引用与按需读取</text><text x="375" y="474" font-size="13" fill="#62766a">预算 · 版本 · Token 估计</text>
+<text x="630" y="266">Ask</text><text x="630" y="376">Plan</text><text x="630" y="486">Agent</text><text x="630" y="596">Super LLM</text>
+<text x="945" y="432" font-weight="700">工具</text><text x="945" y="457" font-size="13">真实执行</text>
+<text x="950" y="194" font-size="13" fill="#62766a">流式回答</text><text x="955" y="308" font-size="13" fill="#62766a">计划写入 Markdown</text>
+<text x="1295" y="264">正文与思考</text><text x="1295" y="374">计划文件</text><text x="1295" y="504">文件 diff / 撤销</text><text x="1295" y="614">Todo / 工具日志</text>
+<text x="750" y="687">理解需求</text><text x="870" y="687">Spec</text><text x="990" y="687">Plan</text><text x="1145" y="687">自审 ≤ 2 轮</text>
+<text x="990" y="761" font-weight="600">用户审查 → 构建</text><text x="1040" y="593" font-size="13">只读子代理</text>
+<text x="792" y="357" font-size="13" fill="#52816a">工具结果反馈模型</text>
+<text x="720" y="844" font-size="14">文件版本校验 · Shell 分级审批 · 取消与超时 · 上下文与缓存用量</text>
+<text x="720" y="881" font-size="13" fill="#62766a">实线：数据与执行方向　　虚线：工具回传或子代理协作　　圆点：处理节点</text>
+<text x="720" y="915" font-size="13" fill="#62766a">Agent 直接执行，不经过 Super LLM 的规划审查分支；Plan 仅生成计划。</text>
+</g></svg>

@@ -2,7 +2,7 @@
 
 用自然语言在本地工作区完成项目任务的 Windows AI 工作台。
 
-![Muv Code](marketing/app-screenshot.png)
+![Muv Code 宣传海报](marketing/muv-code-poster.png)
 
 ## 快速开始
 
@@ -39,7 +39,9 @@ npm run dev
 | `scripts/` | 图标生成脚本 |
 | `marketing/` | 浏览器截图与宣传海报 |
 
-![工作区工具架构](architecture/workspace-tools.svg)
+以下用神经网络的节点与连线表达软件的数据流和执行分支，不表示模型内部网络结构或训练过程。
+
+![Muv Code 神经网络式架构图](architecture/workspace-tools.svg)
 
 ## 规范要点
 
@@ -67,4 +69,4 @@ Windows 打包使用 electron-builder NSIS。安装程序位于 `release/`，不
 - 撤销事务与终端引用不跨应用重启持久化。
 - 完整远端模型与桌面端端到端验收尚未覆盖所有流程；不要将测试通过等同于任意模型均兼容。
 
-![宣传海报](marketing/muv-code-poster.png)
+![应用界面](marketing/app-screenshot.png)
