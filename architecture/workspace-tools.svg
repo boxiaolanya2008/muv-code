@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="title">
+<title id="title">Muv Code 工作区工具与计划落盘</title>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#527565"/></marker></defs>
+<rect width="960" height="420" fill="#f6f7f3"/>
+<g font-family="Segoe UI, Microsoft YaHei, sans-serif" fill="#20342a" text-anchor="middle">
+<text x="480" y="46" font-size="24" font-weight="600">工作区工具与计划落盘</text>
+<g fill="#fff" stroke="#bacbc1"><rect x="32" y="92" width="196" height="72" rx="8"/><rect x="284" y="92" width="196" height="72" rx="8"/><rect x="536" y="92" width="196" height="72" rx="8"/><rect x="788" y="92" width="140" height="72" rx="8"/><rect x="284" y="235" width="196" height="72" rx="8"/><rect x="536" y="235" width="392" height="72" rx="8"/></g>
+<g font-size="16" font-weight="600"><text x="130" y="121">Agent · 根目录索引</text><text x="382" y="121">模型调用工具</text><text x="634" y="121">路径与版本校验</text><text x="858" y="121">工作区</text><text x="382" y="264">Plan · 生成计划正文</text><text x="732" y="264">事务写入时间戳 Markdown</text></g>
+<g font-size="13" fill="#425c50"><text x="130" y="145">只发送文件名，不预读全文</text><text x="382" y="145">读取、创建、局部编辑、诊断</text><text x="634" y="145">首次读全文，编辑只传差量</text><text x="858" y="145">实际读写</text><text x="382" y="288">范围、步骤、验收、回退</text><text x="732" y="288">muv-code/.plan/时间戳-后缀.md</text><text x="605" y="211">返回版本与执行结果；继续工具循环</text><text x="480" y="372">重复读取不再产生全文结果；无状态 API 仍会发送已有消息历史。</text></g>
+</g>
+<g fill="none" stroke="#527565" stroke-width="2" marker-end="url(#arrow)"><path d="M228 128H278"/><path d="M480 128H530"/><path d="M732 128H782"/><path d="M858 164V184H382V170"/><path d="M480 271H530"/></g>
+</svg>
